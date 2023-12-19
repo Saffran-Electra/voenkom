@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "docker";
+    src: url(docker.ttf);
+}
+
+@font-face{
+    font-family: "linewire";
+    src: url(lnwr.ttf);
+}
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    height: 100%;
+    padding-top:2%;
+    padding-bottom: 1%;
+    padding-left:5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("m_ban.png");
+}
+.header-inner{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.nav_link{
+    text-decoration: none;
+    font-family: "docker";
+    color: #ffffff;
+    padding-left:5%;
+}
+.navbar {
+    max-width:50%;
+    width:100%;
+    font-size:24px;
+    padding-right: -10%;
+}
+
+.q1{
+    font-family: "docker";
+    font-size: 80px;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    text-align: center;
+    color: #151510;
+    }
+
+    .qr{
+        text-align: right;
+        font-family: "docker";
+        font-size: 50px;
+        margin-bottom: 0%;
+        margin-top: 2%;
+        color: #151510;
+        }
+        .ql{
+            text-align: left;
+            font-family: "docker";
+            font-size: 50px;
+            margin-bottom: 0%;
+            margin-top: 2%;
+            color: #151510;
+            }
+            .head1{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                padding-top: 0%;
+                padding-left: 10%;
+                padding-right: 10%;
+        }
+        .filll{text-align: left;}
+        .fillr{text-align: right;}
+        .fill-text1{
+            text-align: left;
+            font-family: "linewire";
+            font-size: 50px;
+            margin-left: 3%;
+            padding-left: 3%;
+            margin-top: 3%;
+        }
+        
+        .fill-text2{
+        text-align: right;
+            font-family: "linewire";
+            font-size: 50px;
+            margin-left: 3%;
+            border-right: #151510 3px solid;
+            padding-right: 3%;
+            margin-top: 3%;
+
+
+        }
+
+        .head-i{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            padding-top: 3%;
+            padding-left: 15%;
+            padding-right: 10%;
+    }

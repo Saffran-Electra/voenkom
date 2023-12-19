@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "docker";
+    src: url(docker.ttf);
+}
+
+@font-face{
+    font-family: "linewire";
+    src: url(lnwr.ttf);
+}
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.header{
+    height: 100%;
+    padding-top:2%;
+    padding-bottom: 1%;
+    padding-left:5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("m_ban.png");
+}
+.header-inner{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.nav_link{
+    text-decoration: none;
+    font-family: "docker";
+    color: #ffffff;
+    padding-left:5%;
+}
+.navbar {
+    max-width:50%;
+    width:100%;
+    font-size:24px;
+    padding-right: -10%;
+}
+
+.aq{
+font-family:"docker";
+color: black;
+font-size: 30px;
+opacity: 0.35;
+text-decoration: none;
+padding-bottom: 3%;
+}
+
+.q{
+    font-family: "docker";
+    font-size: 80px;
+    margin-bottom: 2%;   }
+
+
+    .q3{
+        font-family: "docker";
+        font-size: 80px;
+        margin-bottom: 2%; 
+    margin-left: 17%;  }
+    
+    
+.head1{
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+}
+.head{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 3%;
+        padding-right: 1%;
+        padding-left: 7%;
+}
+.q1{
+    font-family: "docker";
+    font-size: 100px;
+    margin-bottom: 0%;
+    text-align: center;
+    }
+
+.qq{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.qq0{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+input{
+    width: 600px;
+    height:82px;
+    background: none;
+    border: #323226 solid 3px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    opacity: 45%;
+    font-size: 40px;
+    font-family: "linewire";
+    font-weight: 300;
+    letter-spacing: 2.80px;
+    word-wrap: break-word;
+    color:#ffffff;
+      }
+
+      .button-body{
+        border-radius: 15px;
+        align-items: center;
+        background-color: #5D6146;
+        padding: 2%;
+        margin-right: 25%;
+    }
+    
+    .button{
+
+        font-family: "docker";
+        cursor: pointer;
+        font-size: 32px;
+        font-weight: 500;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background cubic-bezier(0.075, 0.82, 0.165, 1), 2s;
+        margin: 50px;
+        padding-top:25px ;
+        
+    }
+
+    .container3{
+        margin-top: 4%;
+        margin-left: 20%;
+        width:100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+
+.que{
+    width: 100%;
+    max-width:inherit;
+    place-items: center;
+}
+.form{
+    padding-left: 15%;
+}
